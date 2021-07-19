@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E718098826A52AC4003488C6 /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E718098626A52AC4003488C6 /* SliderCollectionViewCell.swift */; };
+		E718098926A52AC4003488C6 /* SliderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E718098726A52AC4003488C6 /* SliderCollectionViewCell.xib */; };
 		E74B984026A1D7C800F05577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B983F26A1D7C800F05577 /* AppDelegate.swift */; };
 		E74B984226A1D7C800F05577 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B984126A1D7C800F05577 /* SceneDelegate.swift */; };
 		E74B984426A1D7C800F05577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B984326A1D7C800F05577 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E718098626A52AC4003488C6 /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		E718098726A52AC4003488C6 /* SliderCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderCollectionViewCell.xib; sourceTree = "<group>"; };
 		E74B983C26A1D7C800F05577 /* UIDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74B983F26A1D7C800F05577 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E74B984126A1D7C800F05577 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E718098526A52A6A003488C6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E718098626A52AC4003488C6 /* SliderCollectionViewCell.swift */,
+				E718098726A52AC4003488C6 /* SliderCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		E74B983326A1D7C800F05577 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		E74B983E26A1D7C800F05577 /* UIDesign */ = {
 			isa = PBXGroup;
 			children = (
+				E718098526A52A6A003488C6 /* Cell */,
 				E74B983F26A1D7C800F05577 /* AppDelegate.swift */,
 				E74B984126A1D7C800F05577 /* SceneDelegate.swift */,
 				E74B984326A1D7C800F05577 /* ViewController.swift */,
@@ -130,6 +144,7 @@
 				E74B984C26A1D7CB00F05577 /* LaunchScreen.storyboard in Resources */,
 				E74B984926A1D7CB00F05577 /* Assets.xcassets in Resources */,
 				E74B984726A1D7C800F05577 /* Main.storyboard in Resources */,
+				E718098926A52AC4003488C6 /* SliderCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E718098826A52AC4003488C6 /* SliderCollectionViewCell.swift in Sources */,
 				E74B985526A24E3500F05577 /* LoginViewController.swift in Sources */,
 				E74B984426A1D7C800F05577 /* ViewController.swift in Sources */,
 				E74B984026A1D7C800F05577 /* AppDelegate.swift in Sources */,

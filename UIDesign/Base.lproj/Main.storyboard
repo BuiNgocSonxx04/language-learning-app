@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -564,7 +565,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="R0M-wq-o7b">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="350"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="550"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ubc-r3-v0O">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
@@ -831,6 +832,39 @@
                                                     <constraint firstItem="4PU-m9-bDp" firstAttribute="top" secondItem="jJj-BF-XEb" secondAttribute="top" constant="15" id="SGv-1J-rQz"/>
                                                     <constraint firstAttribute="trailing" secondItem="4PU-m9-bDp" secondAttribute="trailing" constant="24" id="dvA-Rg-UIx"/>
                                                     <constraint firstAttribute="height" constant="150" id="dyf-Ta-u8B"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rFA-e0-fBx">
+                                                <rect key="frame" x="0.0" y="350" width="414" height="200"/>
+                                                <subviews>
+                                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="WZx-2z-Zuf">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="200"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kEa-OT-l53">
+                                                            <size key="itemSize" width="128" height="128"/>
+                                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                        </collectionViewFlowLayout>
+                                                        <cells>
+                                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="OGB-ZO-eSg">
+                                                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="pRW-LD-sMf">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                                                    <autoresizingMask key="autoresizingMask"/>
+                                                                </collectionViewCellContentView>
+                                                            </collectionViewCell>
+                                                        </cells>
+                                                    </collectionView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="WZx-2z-Zuf" secondAttribute="bottom" id="4Ne-rh-wvM"/>
+                                                    <constraint firstAttribute="height" constant="200" id="5nk-lX-lHn"/>
+                                                    <constraint firstAttribute="trailing" secondItem="WZx-2z-Zuf" secondAttribute="trailing" id="BHn-Ug-ObX"/>
+                                                    <constraint firstItem="WZx-2z-Zuf" firstAttribute="top" secondItem="rFA-e0-fBx" secondAttribute="top" id="BrB-bH-XRW"/>
+                                                    <constraint firstItem="WZx-2z-Zuf" firstAttribute="leading" secondItem="rFA-e0-fBx" secondAttribute="leading" id="J49-sh-btD"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
