@@ -13,6 +13,7 @@
 		E74B984726A1D7C800F05577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74B984526A1D7C800F05577 /* Main.storyboard */; };
 		E74B984926A1D7CB00F05577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74B984826A1D7CB00F05577 /* Assets.xcassets */; };
 		E74B984C26A1D7CB00F05577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74B984A26A1D7CB00F05577 /* LaunchScreen.storyboard */; };
+		E74B985526A24E3500F05577 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B985426A24E3400F05577 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E74B984826A1D7CB00F05577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E74B984B26A1D7CB00F05577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E74B984D26A1D7CB00F05577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74B985426A24E3400F05577 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E74B984826A1D7CB00F05577 /* Assets.xcassets */,
 				E74B984A26A1D7CB00F05577 /* LaunchScreen.storyboard */,
 				E74B984D26A1D7CB00F05577 /* Info.plist */,
+				E74B985426A24E3400F05577 /* LoginViewController.swift */,
 			);
 			path = UIDesign;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74B985526A24E3500F05577 /* LoginViewController.swift in Sources */,
 				E74B984426A1D7C800F05577 /* ViewController.swift in Sources */,
 				E74B984026A1D7C800F05577 /* AppDelegate.swift in Sources */,
 				E74B984226A1D7C800F05577 /* SceneDelegate.swift in Sources */,
